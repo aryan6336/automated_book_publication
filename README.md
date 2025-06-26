@@ -33,8 +33,7 @@
 
 ```bash
 python -m venv venv        # On Linux/Mac
-./venv/Scripts/activate           # On Windows
-streamlit run human_reviewer_app.py 
+./venv/Scripts/activate           # On Windows 
 ```
 ### 2.Download playwright seperately 
 
@@ -46,6 +45,7 @@ playwright install
 
 ```bash 
 pip install -r requirements.txt
+streamlit run human_reviewer_app.py
 ```
 ---
 
