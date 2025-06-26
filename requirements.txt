@@ -1,0 +1,15 @@
+# Core UI Framework
+streamlit>=1.35.0
+
+# Web Scraping
+greenlet>=3.0.3
+
+# AI Agents and LLM Tools
+langchain>=0.1.17
+langchain-community>=0.0.30
+
+# Embedding & Vector DB
+chromadb>=0.4.24
+sentence-transformers>=2.2.2
+transformers>=4.40.0
+torch>=2.1.2
