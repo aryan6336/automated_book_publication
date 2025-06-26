@@ -1,6 +1,6 @@
 # 📘 AI-Based Automated Book Publication Workflow
 
-This project implements a complete **automated book publishing pipeline** using **Python3.10.11, Streamlit, Playwright, LangChain**, and **ChromaDB**. The system allows scraping public domain book chapters, rewriting the content using an AI writer agent, reviewing it via an AI reviewer agent, and tracking all versions using a vector database.
+## This project implements a complete **automated book publishing pipeline** using **Python3.10.11, Streamlit, Playwright, LangChain**, and **ChromaDB**. The system allows scraping public domain book chapters, rewriting the content using an AI writer agent, reviewing it via an AI reviewer agent, and tracking all versions using a vector database.
 ---
 
 ## 🧩 Project Features
