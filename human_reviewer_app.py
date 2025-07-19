@@ -4,7 +4,7 @@ import streamlit as st
 import os
 from datetime import datetime
 from ai_agents.writer import run_writer_agent
-from ai_agents.reviewer import run_reviewer_agent
+from q_learning_agent import run_q_learning_ai_reviewer
 from scrape_chapter import scrape_chapter_from_url
 import subprocess
 import sys
@@ -34,7 +34,7 @@ if st.button("🚀 Start Workflow"):
         save_version("output/rewritten_by_writer.txt", chapter_id="chapter1", version_label="rewritten", source="writer")
 
     with st.spinner("🧠 Running AI Reviewer..."):
-        run_reviewer_agent()
+        run_q_learning_ai_reviewer()
         save_version("output/reviewed_output.txt", chapter_id="chapter1", version_label="final", source="reviewer")
 
     st.success("✅ Pipeline Complete! Scroll down to review outputs.")
