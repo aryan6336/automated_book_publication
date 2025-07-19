@@ -1,9 +1,8 @@
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from ai_agents.prompts import reviewer_prompt
 
-def run_reviewer_agent():
+def run_reviewer_agent(reviewer_prompt):
     input_file="output/rewritten_by_writer.txt"
     output_file="output/reviewed_output.txt"
     with open(input_file, "r", encoding="utf-8") as f:
