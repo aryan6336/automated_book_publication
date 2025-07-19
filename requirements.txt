@@ -13,3 +13,7 @@ chromadb>=0.4.24
 sentence-transformers>=2.2.2
 transformers>=4.40.0
 torch>=2.1.2
+
+# State of AI 
+language-tool-python 
+nltk==3.8.1
